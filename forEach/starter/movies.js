@@ -10,3 +10,7 @@ const movies = [
 	{title: "Minority Report", director: "Steven Spielberg", yearReleased: 2002},
 	{title: "Ex Machina", director: "Alex Garland", yearReleased: 2014}
 ];
+
+movies.forEach(function(oneMovie){
+	console.log(`${oneMovie.title} (${oneMovie.yearReleased}) directed by ${oneMovie.director}`);
+});
